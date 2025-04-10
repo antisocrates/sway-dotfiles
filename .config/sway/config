@@ -276,7 +276,7 @@ seat * hide_cursor when-typing enable
 seat * hide_cursor 8000
 
 # Keyboard Layouts
-input "1:1:AT_Translated_Set_2_keyboard" {
+input "type:keyboard" {
     xkb_layout us,gr
     xkb_variant ,
     xkb_options grp:alt_shift_toggle
